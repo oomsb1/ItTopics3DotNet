@@ -21,5 +21,3 @@ jobs:
       run: dotnet restore **/*/TestApp.csproj
     - name: Build
       run: dotnet build --no-restore **/*/TestApp.csproj
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
